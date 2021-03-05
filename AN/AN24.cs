@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Framework_Lib
+namespace AN
 {
-    public class Class1
+    public class AN24
     {
     }
 }

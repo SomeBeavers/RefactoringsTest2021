@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9C463404-98CE-4312-9065-85B10FCA9259}</ProjectGuid>
+    <ProjectGuid>{92B9C4AC-FE15-44CB-9909-6BCA3CAFC721}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Framework_Lib</RootNamespace>
-    <AssemblyName>Framework_Lib</AssemblyName>
+    <RootNamespace>AN</RootNamespace>
+    <AssemblyName>AN</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,6 +41,39 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AN2.cs" />
+    <Compile Include="AN3.cs" />
+    <Compile Include="AN33.cs" />
+    <Compile Include="AN32.cs" />
+    <Compile Include="AN31.cs" />
+    <Compile Include="AN30.cs" />
+    <Compile Include="AN29.cs" />
+    <Compile Include="AN28.cs" />
+    <Compile Include="AN27.cs" />
+    <Compile Include="AN26.cs" />
+    <Compile Include="AN25.cs" />
+    <Compile Include="AN24.cs" />
+    <Compile Include="AN23.cs" />
+    <Compile Include="AN22.cs" />
+    <Compile Include="AN21.cs" />
+    <Compile Include="AN20.cs" />
+    <Compile Include="AN19.cs" />
+    <Compile Include="AN18.cs" />
+    <Compile Include="AN17.cs" />
+    <Compile Include="AN16.cs" />
+    <Compile Include="AN15.cs" />
+    <Compile Include="AN14.cs" />
+    <Compile Include="AN13.cs" />
+    <Compile Include="AN12.cs" />
+    <Compile Include="AN11.cs" />
+    <Compile Include="AN10.cs" />
+    <Compile Include="AN9.cs" />
+    <Compile Include="AN8.cs" />
+    <Compile Include="AN7.cs" />
+    <Compile Include="AN6.cs" />
+    <Compile Include="AN5.cs" />
+    <Compile Include="AN4.cs" />
+    <Compile Include="AN1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
