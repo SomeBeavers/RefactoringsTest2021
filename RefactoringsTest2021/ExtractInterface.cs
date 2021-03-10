@@ -5,7 +5,9 @@ namespace RefactoringsTest2021
     public class ExtractInterface
     {
         private int t;
-        private string Name { get; set; }
+        private string Name => Name2;
+        public string Name2 { get; set; }
+
         public string NamePublic { get; set; }
 
         /// <summary>
@@ -13,9 +15,14 @@ namespace RefactoringsTest2021
         /// </summary>
         public void Test()
         {
-            NamePublic = "";
+            Test2();
             Console.WriteLine(t);
             Console.WriteLine(Name);
+        }
+
+        private void Test2()
+        {
+            NamePublic = "";
         }
     }
 

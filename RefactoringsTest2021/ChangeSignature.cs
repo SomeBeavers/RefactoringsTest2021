@@ -143,10 +143,6 @@ namespace RefactoringsTest2021
             var s = new ChangeSignature_Indexer<string>()[1];
         }
 
-        public class MyAttribute
-        {
-        }
-
         private class SpecializedGenericClass : MeasurementConfigurator<MyAttribute>
         {
             public override int GenericMethod<U>(U xc, U b, MyAttribute instance,
@@ -184,10 +180,6 @@ namespace RefactoringsTest2021
         }
     }
 
-    public class ChangeSignature_A
-    {
-    }
-
     public class ChangeSignatureSimpleBase
     {
         public virtual string ChangeSignature_method(string? s, int xxx, int _1_int = 0)
@@ -220,4 +212,16 @@ namespace RefactoringsTest2021
             set { arr[i] = value; }
         }
     }
+
+    #region Helpers
+
+    public class MyAttribute
+    {
+    }
+    public class ChangeSignature_A
+    {
+    }
+
+
+    #endregion
 }

@@ -10,6 +10,10 @@
     <ProjectReference Include="..\Multi\Multi.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="MoveTypeToAnotherFile\" />
+  </ItemGroup>
+
   <Import Project="..\Shared\Shared.projitems" Label="Shared" />
 
 </Project>
