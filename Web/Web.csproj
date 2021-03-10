@@ -1,7 +1,21 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="TS\TS1.ts" />
+    <None Remove="TS\TS2.ts" />
+    <None Remove="TS\TS_IntroduceField.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="TS\TS2.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="TS\TS1.ts" />
+    <TypeScriptCompile Include="TS\TS_IntroduceField.ts" />
+  </ItemGroup>
 
 </Project>
