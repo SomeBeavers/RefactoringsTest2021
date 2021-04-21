@@ -12,6 +12,10 @@ Namespace RefactoringsTest2021
 
         Private pivot As Integer
 
+        Public Sub Use(ByVal logger As Logger)
+            MakeStatic1(New Logger())
+        End Sub
+
         Public Class Logger
             Public Sub Log(ByVal msg As String)
             End Sub

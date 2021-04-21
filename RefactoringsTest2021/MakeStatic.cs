@@ -14,6 +14,11 @@ namespace RefactoringsTest2021
             Console.WriteLine(Name);
         }
 
+        private void Test()
+        {
+            MakeStatic1(new Logger());
+        }
+
         #region Helpers
 
         private int pivot;
