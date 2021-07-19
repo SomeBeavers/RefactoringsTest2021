@@ -29,7 +29,7 @@ Namespace RefactoringsTest2021
     End Class
 
     Interface IPushMembersDown
-        Private Property PublicProperty As Integer
+        Property PublicProperty As Integer
         Sub Test()
         Sub Test2()
         Sub PrivateMethod()

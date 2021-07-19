@@ -24,7 +24,7 @@
         {
             res = false;
             res1 = false;
-            return (0, null);
+            return (0, "null");
         }
 
         #region Helpers
