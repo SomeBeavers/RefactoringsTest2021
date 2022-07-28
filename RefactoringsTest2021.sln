@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31025.194
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefactoringsTest2021", "RefactoringsTest2021\RefactoringsTest2021.csproj", "{41B8B193-39DC-472B-A741-9BEED9337032}"
 EndProject
@@ -28,11 +28,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalUsingsProject", "GlobalUsingsProject\GlobalUsingsProject.csproj", "{16B8AC77-ABDC-491D-9194-AA73FF5748A8}"
+EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		Shared\Shared.projitems*{07d2b070-3101-4b15-a73f-345c4b845299}*SharedItemsImports = 13
-		Shared\Shared.projitems*{41b8b193-39dc-472b-a741-9beed9337032}*SharedItemsImports = 5
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|x64 = Debug|x64
@@ -148,11 +146,27 @@ Global
 		{65CE7FFB-6C80-4A46-8B52-BE51E0D61434}.Release|x64.Build.0 = Release|Any CPU
 		{65CE7FFB-6C80-4A46-8B52-BE51E0D61434}.Release|x86.ActiveCfg = Release|Any CPU
 		{65CE7FFB-6C80-4A46-8B52-BE51E0D61434}.Release|x86.Build.0 = Release|Any CPU
+		{16B8AC77-ABDC-491D-9194-AA73FF5748A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B8AC77-ABDC-491D-9194-AA73FF5748A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16B8AC77-ABDC-491D-9194-AA73FF5748A8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{16B8AC77-ABDC-491D-9194-AA73FF5748A8}.Debug|x64.Build.0 = Debug|Any CPU
+		{16B8AC77-ABDC-491D-9194-AA73FF5748A8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{16B8AC77-ABDC-491D-9194-AA73FF5748A8}.Debug|x86.Build.0 = Debug|Any CPU
+		{16B8AC77-ABDC-491D-9194-AA73FF5748A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B8AC77-ABDC-491D-9194-AA73FF5748A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16B8AC77-ABDC-491D-9194-AA73FF5748A8}.Release|x64.ActiveCfg = Release|Any CPU
+		{16B8AC77-ABDC-491D-9194-AA73FF5748A8}.Release|x64.Build.0 = Release|Any CPU
+		{16B8AC77-ABDC-491D-9194-AA73FF5748A8}.Release|x86.ActiveCfg = Release|Any CPU
+		{16B8AC77-ABDC-491D-9194-AA73FF5748A8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {527F1A01-2504-47FD-847A-85480FC8BA34}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Shared\Shared.projitems*{07d2b070-3101-4b15-a73f-345c4b845299}*SharedItemsImports = 13
+		Shared\Shared.projitems*{41b8b193-39dc-472b-a741-9beed9337032}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal
